@@ -1,7 +1,14 @@
 baseURL = "https://lsh0924.github.io/blog-test/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "춤뚜의 테스트 블로그"
 theme = "hugo-theme-stack"
 
 [params.defaultImage.opengraph]
 enabled = false
+
+[params.sidebar]
+subtitle = "오호라 이것이 프로필"
+
+[params.sidebar.avatar]
+local = true
+src = "img/avatar.png"
