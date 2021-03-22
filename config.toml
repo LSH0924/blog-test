@@ -32,3 +32,12 @@ name = "Search"
 url = "search"
 weight = -70
 pre = "search"
+
+# content/post폴더 접근 path를 설정합니다.
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug"
+
+# 포스팅 문서가 모여있는 루트 폴더를 설정합니다.
+[params]
+mainSections = ["post"]
